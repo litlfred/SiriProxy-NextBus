@@ -12,10 +12,11 @@ To get the location, route, stop and direction you will need to look at the URL 
    http://www.nextbus.com/predictor/fancyBookmarkablePredictionLayer.shtml?a=chapel-hill&r=NS&d=S&s=airpwest_s&ts=airprigg_s
 
 Here we have:
-* a=chapel-hill, to set our location to chapel-hill
-* r=NS, this is our route, the NS
-* s=airpwest_s, this is our stop
-* d=S, this is our direction
+
+*    a=chapel-hill, to set our location to chapel-hill
+*    r=NS, this is our route, the NS
+*    s=airpwest_s, this is our stop
+*    d=S, this is our direction
 
 
 Sample Config
