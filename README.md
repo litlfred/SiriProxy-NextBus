@@ -4,6 +4,10 @@ SiriProxy-NextBus
 NextBus provides up to the minute bus routing information.  See the list of all transit systems with next bus
 	http://www.nextbus.com/predictor/agencySelector.jsp
 
+This plugin is defined so that you specify the transit system as well as routes, stops and direction in your config.yml file.  You also specify which regular expressions you want to use to match the incoming text
+
+
+
 
 Sample Config
 -------------
@@ -13,8 +17,9 @@ Sample Config
 	plugins:
 	    # NOTE: run bundle after changing plugin configurations to update required gems
 	    
-	        - name: 'NextBus'
-		      path: './plugins/siriproxy-nextbus'
+	  - name: 'NextBus'
+	    git: 'git://github.com/litlfred/SiriProxy-NextBus.git
+
 		      
 		      
         next_bus:  
